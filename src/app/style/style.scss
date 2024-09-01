@@ -1,0 +1,25 @@
+//Home Page
+
+@import 'hover/hover-page';
+
+
+// Box Style
+
+
+.box{
+    background-color: var(--color-third);
+    width: 100px;
+    height: 100px;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+// Box Code
+
+.code{
+    margin-top: var(--spacing-md);
+}
+
+.language-css{
+    width: 45%;
+}

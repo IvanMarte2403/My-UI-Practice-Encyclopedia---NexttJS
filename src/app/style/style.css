@@ -1,0 +1,44 @@
+.hover-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: var(--spacing-xxl);
+  justify-content: center;
+  align-items: center;
+}
+
+.hover-1 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: var(--spacing-xl);
+}
+.hover-1 .container {
+  display: flex;
+  flex-direction: row;
+  margin-top: var(--spacing-xl);
+  justify-content: space-between;
+  width: 45%;
+}
+.hover-1 .container .box {
+  transition: opacity 0.6s ease;
+}
+.hover-1 .container:hover > :not(:hover) {
+  opacity: 0.4;
+}
+
+.box {
+  background-color: var(--color-third);
+  width: 100px;
+  height: 100px;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+.code {
+  margin-top: var(--spacing-md);
+}
+
+.language-css {
+  width: 45%;
+}/*# sourceMappingURL=style.css.map */
